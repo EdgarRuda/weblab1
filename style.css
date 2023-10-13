@@ -1,0 +1,53 @@
+
+
+  #fixed-image{
+   
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url("https://www.w3schools.com/w3images/map.jpg");
+}
+
+body{
+  background-color: black;
+}
+
+.w3-bar.w3-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper{
+    position: relative;
+    transform: translate(0,200px);
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -50px;
+     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #540032;
+  }
+  
+  h1.animated {
+  
+    
+    transform: scale(1.5);
+
+   
+  }
+  
+  .animated {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
